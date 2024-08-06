@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shift Manager</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body >
+    <div id="app">
+       
+        <div class="button_half">
+            <p class="header_p">Riverside Station</p>
+            <div class="time">
+                <div id="date"></div>
+                <div id="txt"></div>
+            </div>
+
+            <div class="button_holder">
+                <button onclick="displayWorkers()">View Workers</button>
+                <button onclick="displayTasks()">View Tasks</button>
+                <button onclick="displayShifts()">View Shifts</button>
+            </div>
+        </div>
+        <div id="content">
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
